@@ -18,9 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function lanjut2() {
+    var namabesar = nama.toUpperCase();
     document.getElementById('no1').style.display = 'none';
     document.getElementById('no2').style.display = 'block';
-    document.getElementById('h1indivno2').innerHTML = 'SELAMAT ULANG TAHUN ' + nama + ' !';
+    document.getElementById('h1indivno2').innerHTML = 'SELAMAT ULANG TAHUN ' + namabesar + '!';
     playMusic();
 }
 

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -14,14 +15,14 @@
     <div id="no1">
         <h1 id="h1indivno1" data-aos="fade-right" data-aos-duration="1000">TEKAN BALONNYA!</h1>
         <center>
-            <img src="img/balon.png" id="imgdivno1" class="cursordisplay" onclick="lanjut2()" data-aos="fade-up" data-aos-duration="1500">
+            <img src="img/balon.png" id="imgdivno1" class="cursordisplay" onclick="lanjut2()" data-aos="fade-up" data-aos-duration="1500" alt="???">
         </center>
     </div>
 
     <div id="no2">
         <h1 id="h1indivno2">SELAMAT ULANG TAHUN</h1>
         <center>
-            <img src="img/happy.png" id="imgdivno2" class="cursornone">
+            <img src="img/happy.png" id="imgdivno2" class="cursornone" alt="By Dyn Crazy">
         </center>
         <br><br><br>
         <center>
@@ -32,7 +33,7 @@
     <div id="no3">
         <h1 id="h1indivno3">BUKA KADONYA!</h1>
         <center>
-            <img src="img/hadiah.png" id="imgdivno3" class="cursordisplay" onclick="lanjut4()">
+            <img src="img/hadiah.png" id="imgdivno3" class="cursordisplay" onclick="lanjut4()" alt="YouTube: Dyn Crazy">
         </center>
     </div>
 
@@ -100,7 +101,7 @@
     <div id="no5">
         <h1 id="h1indivno2">YEAYYY!! MARI KITA RAYAKAN!!</h1>
         <center>
-            <img src="img/party.png" id="imgdivno5" class="cursornone">
+            <img src="img/party.png" id="imgdivno5" class="cursornone" alt="Instagram: @dyn.crazy">
         </center>
         <br><br><br>
         <center>
@@ -111,7 +112,7 @@
     <div id="no6">
         <h1 id="h1indivno2">YEAYYY!! MARI KITA RAYAKAN!!</h1>
         <center>
-            <img src="img/party.png" id="imgdivno2" class="cursornone" onclick="lanjut2()">
+            <img src="img/party.png" id="imgdivno2" class="cursornone" onclick="lanjut2()" alt="Instagram: @dyn.crazy">
         </center>
         <br><br><br>
         <center>
@@ -124,27 +125,33 @@
 
     <div id="noparam">
         <h1>TERJADI KESALAHAN...</h1>
-        <p>Parameter 'to' tidak ditemukan!</p>
-        <br>
+        <p>Parameter '<span style="color: rgb(255, 149, 0);">to</span>' tidak ditemukan!</p>
+        <h3>Cara penggunaan:</h3>
+        <p>
+            - https://hbdtoyou.netlify.app/?to=<span style="color: rgb(0, 106, 255);">[nama orang]</span><br>
+        </p>
         <h3>Contoh penggunaan yang salah:</h3>
         <p>
-            - https://happy-birthday.netlify.app/<br>
-            - https://happy-birthday.netlify.app/index.html<br>
-            - https://happy-birthday.netlify.app/index.html?<br>
-            - https://happy-birthday.netlify.app/index.html?to<br>
-            - https://happy-birthday.netlify.app/index.html?to=<br>
-            - https://happy-birthday.netlify.app/index.html?To=Putri<br>
-            - https://happy-birthday.netlify.app/index.html?TO=Adit
+            - https://hbdtoyou.netlify.app/<br>
+            - https://hbdtoyou.netlify.app/<span style="color: red;">Ucup</span><br>
+            - https://hbdtoyou.netlify.app/index.html<br>
+            - https://hbdtoyou.netlify.app/index.html<span style="color: red;">?</span><br>
+            - https://hbdtoyou.netlify.app/index.html<span style="color: red;">?to</span><br>
+            - https://hbdtoyou.netlify.app/index.html<span style="color: red;">?to=</span><br>
+            - https://hbdtoyou.netlify.app/index.html?<span style="color: red;">T</span>o=Putri<br>
+            - https://hbdtoyou.netlify.app/index.html?<span style="color: red;">TO</span>=Adit<br>
+            - https://hbdtoyou.netlify.app/index.html?<span style="color: red;">Bagas</span>
         </p>
-        <br>
         <h3>Contoh penggunaan yang benar:</h3>
         <p>
-            - https://happy-birthday.netlify.app/?to=Vika<br>
-            - https://happy-birthday.netlify.app/index.html?to=Agus
+            - https://hbdtoyou.netlify.app/<span style="color: rgb(28, 130, 0);">?to=Vika</span><br>
+            - https://hbdtoyou.netlify.app/<span style="color: rgb(28, 130, 0);">index.html?to=Agus</span>
         </p>
+        <br><br>
     </div>
 
-    </div>
+    </div>   
+
 
     <audio id="theaudio" src="ultah.mp3" loop></audio>
 
