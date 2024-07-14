@@ -25,6 +25,7 @@ body {
     font-family: "Patrick Hand", cursive;
     font-size: 16px;
     width: 100%;
+    transition: background-color 0.5s;
 }
 
 h1 {
@@ -60,6 +61,7 @@ img  {
 }
 #noparam {
     display: none;
+    width: 90%;
 }
 
 .containercontent {
@@ -196,7 +198,7 @@ img  {
     transition: width 0.2s ease;
 }
 .btnsuka:hover {
-    width: 75px;
+    width: 79px;
 }
 
 @media (min-width: 768px) {
